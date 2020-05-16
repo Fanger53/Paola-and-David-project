@@ -1,0 +1,29 @@
+
+#navbar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+} 
+
+#main-doc {
+    background-color: rgb(230, 225, 235);
+    }
+
+@media screen and (max-width: 600px) {
+    #main-doc {   
+        position: block;
+        background-color: rgb(2, 149, 247);
+    }
+}
+
+@media screen and (max-width: 600px) {
+ 
+}
+
